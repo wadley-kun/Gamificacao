@@ -1,0 +1,60 @@
+@import url(../style.css);
+
+#header {
+    background-color: var(--cor--terciaria);
+    color: var(--cor--texto);
+}
+
+#header.dark-mode {
+    background-color: var(--cor--texto);
+    color: var(--cor--terciaria);
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr auto; /* Duas colunas: uma flexível e outra ajustada ao conteúdo */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 1rem; /* Espaçamento entre os itens */
+    padding: 2rem;
+    border-bottom: 1px solid var(--cor--texto);
+}
+
+.btn {
+    background-color: var(--cor--principal);
+    color: var(--cor--texto);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-family: var(--fonte--principal);
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.4s;
+}
+
+.btn:hover {
+    background-color: var(--cor--complementar--1);
+}
+
+.btn-dark-mode {
+    background-color: var(--cor--secundaria);
+    color: var(--cor--terciaria);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer
+}
+
+.hide {
+    display: none;
+}
+

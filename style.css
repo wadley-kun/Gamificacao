@@ -1,0 +1,24 @@
+@import url(CSS/header.css);
+@import url(CSS/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(Fontes/Montserrat/Montserrat-Regular.ttf);
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Fontes/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+:root {
+    --fonte--game: "Press Start 2P", serif;
+    --fonte--principal: 'Montserrat', sans-serif;
+    --cor--texto: #2c2c2c;
+    --cor--principal: #e74d29;
+    --cor--secundaria: #1c2745;
+    --cor--terciaria: #f3f3f3;
+    --cor--complementar--1: #3aa5db;
+    --cor--complementar--2: #522985;
+}
+
+.destaque {
+    color: var(--cor--principal);
+}
