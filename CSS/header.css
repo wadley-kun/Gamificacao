@@ -58,3 +58,11 @@
     display: none;
 }
 
+.btn-form {
+    background-color: var(--cor--complementar--1);
+}
+
+.btn-form:hover {
+    background-color: var(--cor--complementar--2);
+    color: var(--cor--terciaria);
+}
